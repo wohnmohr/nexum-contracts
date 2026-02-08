@@ -1,0 +1,24 @@
+{
+    "pool_name": "xlm-high-risk",
+    "network": "testnet",
+    "rpc_url": "https://soroban-testnet.stellar.org:443",
+    "contracts": {
+        "receivable_token": "CCNUUFAIOXA4GSY7TWDHDX7TYWVUQ7O6D43WYMKCQOA6XW5PH25U23MG",
+        "lending_vault": "CDALINBTQ2BYYAFR7TOI6R2J2WRBLGVWUTX6RZVWUUAVAT6PO2CIR63K",
+        "borrow_contract": "CCYY2JOYAS57KKPPVHW62EYTHXLJAURKBDQW6D6ILUJIKZU6N63AX6HM"
+    },
+    "asset": {
+        "label": "Native XLM",
+        "contract": "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC"
+    },
+    "config": {
+        "max_ltv_bps": 8000,
+        "liquidation_threshold_bps": 9000,
+        "liquidation_penalty_bps": 500,
+        "interest_rate_bps": 2000,
+        "reserve_factor_bps": 1000,
+        "max_utilization_bps": 9000,
+        "max_loan_duration_secs": 7776000,
+        "min_deposit_stroops": 10000000
+    }
+}

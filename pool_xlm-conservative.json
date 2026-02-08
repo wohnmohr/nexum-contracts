@@ -1,0 +1,24 @@
+{
+    "pool_name": "xlm-conservative",
+    "network": "testnet",
+    "rpc_url": "https://soroban-testnet.stellar.org:443",
+    "contracts": {
+        "receivable_token": "CCNUUFAIOXA4GSY7TWDHDX7TYWVUQ7O6D43WYMKCQOA6XW5PH25U23MG",
+        "lending_vault": "CAL6UR42P7D6CZWJVRARPD4TROKTPG2ER3AJQITYCJDM5UGH6LNK3Y2Q",
+        "borrow_contract": "CDHGF677AZ6MLF4YFF2GQXIBJ7FF3VAFJFVXMZ753ZLNMFTZLEXVVHP5"
+    },
+    "asset": {
+        "label": "Native XLM",
+        "contract": "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC"
+    },
+    "config": {
+        "max_ltv_bps": 5000,
+        "liquidation_threshold_bps": 8500,
+        "liquidation_penalty_bps": 500,
+        "interest_rate_bps": 800,
+        "reserve_factor_bps": 1000,
+        "max_utilization_bps": 9000,
+        "max_loan_duration_secs": 7776000,
+        "min_deposit_stroops": 10000000
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "pool_name": "usdc-pool",
+    "network": "testnet",
+    "rpc_url": "https://soroban-testnet.stellar.org:443",
+    "contracts": {
+        "receivable_token": "CCNUUFAIOXA4GSY7TWDHDX7TYWVUQ7O6D43WYMKCQOA6XW5PH25U23MG",
+        "lending_vault": "CCAFV3HSXV75WPSE6UZ7MYZMHOZFGCCVAXTREWW5JADGUYF5BXQILXYB",
+        "borrow_contract": "CBKYEIZ6L7AVPE6G6CYL6XWKZ7VHV3SL7Y4KAO34LX4CMKJ6ZCFXCIOS"
+    },
+    "asset": {
+        "label": "USDC:GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5",
+        "contract": "CBIELTK6YBZJU5UP2WWQEUCYKLPU6AUNZ2BQ4WWFEIE3USCIHMXQDAMA"
+    },
+    "config": {
+        "max_ltv_bps": 7000,
+        "liquidation_threshold_bps": 8500,
+        "liquidation_penalty_bps": 500,
+        "interest_rate_bps": 1200,
+        "reserve_factor_bps": 1000,
+        "max_utilization_bps": 9000,
+        "max_loan_duration_secs": 7776000,
+        "min_deposit_stroops": 10000000
+    }
+}

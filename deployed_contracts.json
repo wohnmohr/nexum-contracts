@@ -1,0 +1,25 @@
+{
+    "network": "testnet",
+    "rpc_url": "https://soroban-testnet.stellar.org:443",
+    "contracts": {
+        "receivable_token": "CCNUUFAIOXA4GSY7TWDHDX7TYWVUQ7O6D43WYMKCQOA6XW5PH25U23MG",
+        "lending_vault": "CDB4PQZSK43QM7L5ZHH45YM42FX74MEYKYEDYVAG7GYHXH5TNNZVRX2E",
+        "borrow_contract": "CCKUVUSD3SM5I7K64OZMTWKEMKECU74HQ6HBPV3YJTTIJ5AX7ES5AAWP"
+    },
+    "identities": {
+        "admin": "GDS553OIENRZ7WKOESO2FEKOSQA2QLHBDGCVWAQMHSZ47WAH5HBKZCJO",
+        "verifier": "GCY7T3E6I3PZY4JQG3AMDUAHNU7T4G5KJKKCVBUOXDT5GKNFP4I5UTDF",
+        "creditor": "GCHWHXRXS5CIG64DJ4EKO22TADCPN3XJVSE3GLP56R7OYRJ3AOADK5MT",
+        "borrower": "GBVBXAWMVP5DPXEFYFTVFUFT3WMB6HR4RG7NL37HYG63MD4KLXHNZLXJ",
+        "lp1": "GCOLKETPYQEAMPNC27AGGYVWJ4K53ZDCJEWYXNJEXFVVALDMVXO5W5Z7"
+    },
+    "config": {
+        "base_asset": "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC",
+        "max_ltv_bps": 7000,
+        "liquidation_threshold_bps": 8500,
+        "interest_rate_bps": 1200,
+        "reserve_factor_bps": 1000,
+        "max_utilization_bps": 9000,
+        "max_loan_duration_secs": 7776000
+    }
+}
